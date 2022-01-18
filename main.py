@@ -88,3 +88,18 @@ print("{:.2f}".format(math.pi))
 print(round(math.pi, 2))
 
 
+
+
+# CONDITIONALS (if statements)
+# if some condition is true (boolean)
+#   then execute some code (if statement body)
+x = 6
+if(x == 6):
+    print("x equals 6")
+    # this is the body
+    # body only executes if x is equal to 6
+    # the boolean is true
+    # note standard indentation is one tab or 4 spaces
+
+
+
