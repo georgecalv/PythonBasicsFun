@@ -59,18 +59,28 @@ print(math.pow(2,5))
 
 
 
-# GETTING USER INPUT
-print("Enter your favourite number")
-fav_number = input()
-print(type(fav_number))
-print("Your favourite number is", fav_number)
-print("Your favourite number doubled is", fav_number * 2, sep = "*")
-print("hello" * 2, end = "~~~~~~~") # sep and end are called keyword arguments
-print("here")
-# REally wnat to double fav number
-# convert fav number string to integer or float
-# this is called type conversion
-fav_number_int = int(fav_number)
-print("Your favourite number doubled is",fav_number_int * 2)
+# # GETTING USER INPUT
+# print("Enter your favourite number")
+# fav_number = input()
+# print(type(fav_number))
+# print("Your favourite number is", fav_number)
+# print("Your favourite number doubled is", fav_number * 2, sep = "*")
+# print("hello" * 2, end = "~~~~~~~") # sep and end are called keyword arguments
+# print("here")
+# # REally wnat to double fav number
+# # convert fav number string to integer or float
+# # this is called type conversion
+# fav_number_int = int(fav_number)
+# print("Your favourite number doubled is",fav_number_int * 2)
+
+
+
+# FORMATTING (decimal numbers)
+# few ways to do this
+# 1. c style
+print(math.pi)
+# round to two decimal places
+print("%.2f" %(math.pi))
+# 2. Pythonic way
 
 
