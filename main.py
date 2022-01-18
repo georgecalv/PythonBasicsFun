@@ -56,3 +56,11 @@ print(2 ** 5) # if you have multiple in an expresion you evaluate right to left
 # pow function results in a float
 print(math.pow(2,5))
 
+
+
+
+# GETTING USER INPUT
+print("Enter your favourite number")
+fav_number = input()
+print("Your favourite number is", fav_number)
+
