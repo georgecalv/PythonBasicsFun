@@ -64,6 +64,8 @@ print("Enter your favourite number")
 fav_number = input()
 print(type(fav_number))
 print("Your favourite number is", fav_number)
-print("Your favourite number doubled is ", fav_number * 2)
-print("hello" * 2)
+print("Your favourite number doubled is", fav_number * 2, sep = "*")
+print("hello" * 2, end = "~~~~~~~") # sep and end are called keyword arguments
+print("here")
+
 
