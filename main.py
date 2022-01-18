@@ -67,5 +67,10 @@ print("Your favourite number is", fav_number)
 print("Your favourite number doubled is", fav_number * 2, sep = "*")
 print("hello" * 2, end = "~~~~~~~") # sep and end are called keyword arguments
 print("here")
+# REally wnat to double fav number
+# convert fav number string to integer or float
+# this is called type conversion
+fav_number_int = int(fav_number)
+print("Your favourite number doubled is",fav_number_int * 2)
 
 
