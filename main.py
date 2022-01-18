@@ -82,5 +82,9 @@ print(math.pi)
 # round to two decimal places
 print("%.2f" %(math.pi))
 # 2. Pythonic way
+print("{:.2f}".format(math.pi))
+# 3. built in function round
+# round() rounds number and can be stored as such
+print(round(math.pi, 2))
 
 
