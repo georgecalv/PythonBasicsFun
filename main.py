@@ -138,8 +138,26 @@ print()
 # range(start, stop, step), [start, stop) going up in step
 for i in range(4,9):
     print(i, end=" ")
+print()
 
 # task 1 
+for i in range(8, 3, -2):
+    print(i, end=" ")
+print()
+
+# task 2
+for j in range(0,21,2):
+    print(j, end=" ")
+print("")
+
+# task 3
+for y in range(2, 42, 2):
+    if(y == 40):
+        print(y)
+    else:
+        print(y, end=", ")
+
+
 
 
 
