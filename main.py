@@ -159,6 +159,13 @@ for y in range(2, 42, 2):
 
 
 
+# Functions
+# reduce amount of redundant code
+# write once call multiple times
+# helps with code organization
+
+
+
 
 
 
