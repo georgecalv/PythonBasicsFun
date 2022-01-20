@@ -113,6 +113,36 @@ elif(x > 0):
 else:
     print("x is 0")
 
+# LOOPS
+# repeat statments
+# for loops and while loops 
+# for loop structure
+# for item in sequence:
+    # body satements to repeat
+# many dif sequences
+# lists are sequences
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+# strings are sequences
+for character in "gonzaga":
+    print(character, end = "*")
+print("")
+# generate our own sequences
+# built in with range() generates a sequence
+# range(9) generates sequence starts at [0,9)
+for i in range(9):
+    print(i, end = " ") 
+print()
+# range(start, stop), [start, stop)
+# range(start, stop, step), [start, stop) going up in step
+for i in range(4,9):
+    print(i, end=" ")
+
+# task 1 
+
+
+
 
 
 
