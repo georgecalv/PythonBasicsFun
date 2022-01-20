@@ -67,7 +67,7 @@ print(math.pow(2,5))
 # print("Your favourite number doubled is", fav_number * 2, sep = "*")
 # print("hello" * 2, end = "~~~~~~~") # sep and end are called keyword arguments
 # print("here")
-# # REally wnat to double fav number
+# # Really wnat to double fav number
 # # convert fav number string to integer or float
 # # this is called type conversion
 # fav_number_int = int(fav_number)
@@ -93,13 +93,26 @@ print(round(math.pi, 2))
 # CONDITIONALS (if statements)
 # if some condition is true (boolean)
 #   then execute some code (if statement body)
-x = 6
+x = 7
 if(x == 6):
     print("x equals 6")
     # this is the body
     # body only executes if x is equal to 6
     # the boolean is true
     # note standard indentation is one tab or 4 spaces
+# executes when preceding if is false
+elif(x == 7):
+    print("x isnt 6 but it is 7")
+else:
+    print("x is not 6")
+x = 5
+if (x < 0):
+    print("x is neagative")
+elif(x > 0):
+    print("x is positive")
+else:
+    print("x is 0")
+
 
 
 
